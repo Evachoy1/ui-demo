@@ -1,0 +1,135 @@
+body {
+	background-color: rgba(54, 65, 80, 1.0);
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.title {
+	width: 360px;
+	height: 25px;
+	position: absolute;
+	top: 56px;
+	left: 50%;
+	margin-left: -180px;
+}
+
+.title>img {
+	height: 25px;
+	float: left;
+	margin-left: 20px;
+}
+
+.title>span {
+	float: right;
+	font-size: 25px;
+	color: #fff;
+	margin-right: 20px;
+}
+
+.login_form {
+	width: 360px;
+	height: 270px;
+	border-radius: 15px;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -180px;
+	top: 110px;
+}
+
+.login_tabs {
+	width: 308px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.login_tabs>span {
+	display: block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 3px solid #e1e1e1;
+}
+
+.login_tabs>span:nth-child(1) {
+	border-bottom: 3px solid rgba(66, 164, 252, 1.0);
+}
+
+input {
+	position: absolute;
+	height: 36px;
+	left: 50%;
+	margin-left: -154px;
+	border-radius: 3px;
+	border: 1px solid #e1e1e1;
+	border-left: 2px solid rgba(66, 164, 252, 1.0);
+	display: inline-block;
+	text-indent: 40px;
+}
+
+input::placeholder {
+	font-size: 12px;
+	color: #b5b5b5;
+}
+
+.login_form>input {
+	background: url('../img/m.png') no-repeat 5px 0 / 36px 36px;
+	margin-top: 30px;
+	width: 308px;
+}
+
+.yanzheng>input {
+	background: url('../img/y.png') no-repeat 5px 0 / 36px 36px;
+	width: 172px;
+}
+
+.yanzheng {
+	width: 308px;
+	height: 36px;
+	margin-top: 86px;
+	position: absolute;
+	left: 50%;
+	margin-left: -154px;
+}
+
+.yanzheng>button {
+	width: 110px;
+	height: 100%;
+	float: right;
+	background-color: #e1e1e1;
+	border: none;
+	border-radius: 3px;
+}
+
+.zhuce {
+	width: 308px;
+	height: 36px;
+	margin-top: 150px;
+	position: absolute;
+	left: 50%;
+	margin-left: -154px;
+}
+
+.zhuce>a {
+	float: left;
+	font-size: 16px;
+	color: rgba(66, 164, 252, 1.0);
+	line-height: 36px;
+}
+
+.zhuce>button {
+	float: right;
+	width: 82px;
+	height: 100%;
+	background-color: rgba(66, 164, 252, 1.0);
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+}

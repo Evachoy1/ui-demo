@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script>
+      function resetRootFZ(){
+        var oHtml = document.querySelector('html');
+        var w = oHtml.getBoundingClientRect().width;
+        oHtml.style.fontSize = w/10 + 'px';
+      };
+      resetRootFZ();
+      window.addEventListener('resize',function(){
+        resetRootFZ();
+      });
+    </script>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <img class="logo" src="./img/logo.jpg" alt="logo">
+    <h1>首页</h1>
+    <img class="voice" src="./img/voice.jpg" alt="EvaVoice">
+  </div> 
+
+  <!-- banner -->
+  <div class="banner">
+    <div class="layer"></div>
+    <span>to be a geek</span>
+  </div>
+
+  <!-- 分类入口 -->
+  <div class="entry">
+    <div><h2>前端工具</h2></div>
+    <div><h2>前端博客</h2></div>
+    <div><h2>设计工具</h2></div>
+    <div><h2>设计博客</h2></div>
+  </div>
+
+  <!-- 成长路径 -->
+  <div class="title">
+    <div></div>
+    <h2>成长路径</h2>
+  </div>
+
+  <div class="rout1">
+    <span class="rout_name">前端成长路径</span>
+    <button class="rout_btn">立即学习</button>
+  </div>
+
+  <div class="rout2">
+    <span class="rout_name">设计成长路径</span>
+    <button class="rout_btn">立即学习</button>
+  </div>
+
+  <!-- 我的博客 -->
+  <div class="title">
+    <div></div>
+    <h2>我的博客</h2>
+  </div>
+
+  <div class="blog_form">
+    <div class="blog_tabs">
+    <span id="qblog">前端博客</span>
+    <span id="sblog">设计博客</span>
+    </div>
+
+    <div class="blog_bg"></div>
+
+    <div class="blog_article">
+      <div class="ar_list">
+        <span>平面设计十大技巧</span>
+        <span>2017.09.01</span>
+      </div>
+      <div class="ar_list">
+        <span>平面设计十大技巧</span>
+        <span>2017.09.01</span>
+      </div>
+      <div class="ar_list">
+        <span>平面设计十大技巧</span>
+        <span>2017.09.01</span>
+      </div>
+      <div class="ar_list">
+        <span>平面设计十大技巧</span>
+        <span>2017.09.01</span>
+      </div>
+      <div class="ar_list">
+        <span id="more">查看更多 +</span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 我的作品 -->
+  <div class="title">
+    <div></div>
+    <h2>我的作品</h2>
+  </div>
+
+  <div class="zuopin">
+    <div class="zuopin_sig">
+      <div id="zuopin_pho1"></div>
+      <span class="zuopin_title">响应式网站</span>
+      <span class="zuopin_ren">By Geek Xia</span>
+      <img src="./img/enter.png" alt="enter">
+    </div>
+    <div class="zuopin_sig">
+      <div id="zuopin_pho2"></div>
+      <span class="zuopin_title">响应式网站</span>
+      <span class="zuopin_ren">By Geek Xia</span>
+      <img src="./img/enter.png" alt="enter">
+    </div>
+  </div>
+
+  <!-- 底部 -->
+
+  <div class="footer">
+    <span>
+      Geek Xia | 前端开发工程师 <br>
+      微信号：xia2020xia2020 <br>
+      QQ号：448914712 <br>
+      E-mail：geekxia@qq.com <br><br>
+      Eva Choy | 平面/UI设计师 <br>
+      微信号：caiyuneva <br>
+      QQ 号：108508992 <br>
+      E-mail：evachoy@qq.com
+    </span>
+  </div>
+
+  <!-- 固定底部 -->
+  <div class="fixed_nav">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="fixed_nav_logo">
+      <img id="home" src="./img/home.png" alt="home">
+      <img id="xia" src="./img/xia.png" alt="xia">
+      <img id="eva" src="./img/eva.png" alt="eva">
+    </div>
+  </div>
+    
+</div>
+
+  
+	
+</body>
+</html>
